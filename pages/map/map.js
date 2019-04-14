@@ -15,22 +15,10 @@ Page({
     markers: [{
       iconPath: '/resources/others.png',
       id: 0,
-      latitude: 23.099994,
-      longitude: 113.324520,
+      latitude: 31.871727,
+      longitude: 117.299652,
       width: 50,
       height: 50
-    }],
-    
-    controls: [{
-      id: 1,
-      iconPath: '/resources/location.png',
-      position: {
-        left: 0,
-        top: 300 - 50,
-        width: 50,
-        height: 50
-      },
-      clickable: true
     }]
   },
 
@@ -59,7 +47,7 @@ Page({
       keyword: '图书馆',
       success: function (res) {
         console.log(res);
-        var mks = []
+        var mks = [];
         for (var i = 0; i < res.data.length; i++) {
           mks.push({ // 获取返回结果，放到mks数组中
             title: res.data[i].title,

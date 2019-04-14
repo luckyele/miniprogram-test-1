@@ -14,11 +14,13 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx6f6ae1e1b0cc4560",
-	"projectname": "示范区地图",
+	"projectname": "miniprogram-test-1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
