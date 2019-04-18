@@ -1,13 +1,15 @@
 {
   "pages": [
-    "pages/map/map",
+    "pages/cover/cover",
+    "pages/index/index",
     "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "公共文化服务体系示范区地图",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "安徽文化地图",
+    "navigationBarTextStyle": "white"
   },
   "permission": {
     "scope.userLocation": {

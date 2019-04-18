@@ -1,0 +1,15 @@
+/* pages/cover/cover.wxss */
+
+view {
+  padding-top: 100px;
+}
+
+.bt1 {
+  width: 250px;
+  margin-bottom: 24px;
+    
+}
+
+.bt1:hover{
+  background-color: #4ef;
+}
