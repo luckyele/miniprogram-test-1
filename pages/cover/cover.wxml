@@ -3,10 +3,10 @@
 
 <view>
 
-<button class="bt1" onclick='goToMap()'>公共图书馆</button>
-<button class="bt1" bindtap='goToMap()'>文化馆</button>
-<button class="bt1" bindtap='goToMap()'>博物馆</button>
-<button class="bt1" bindtap='goToMap()'>乡镇综合文化站</button>
-<button class="bt1" bindtap='goToMap()'>村级综合文化服务中心</button>
+<button class="bt1" bindtap='goToMap'>公共图书馆</button>
+<button class="bt1" bindtap='goToMap'>文化馆</button>
+<button class="bt1" bindtap='goToMap'>博物馆</button>
+<button class="bt1" bindtap='goToMap'>乡镇综合文化站</button>
+<button class="bt1" bindtap='goToMap'>村级综合文化服务中心</button>
 
 </view>

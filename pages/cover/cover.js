@@ -63,8 +63,15 @@ Page({
   onShareAppMessage: function () {
 
   },
+  
 
-  goToMap:function(){
-    console.log("button")
+  /**
+   * 从菜单进入地图
+   */
+  goToMap: function (options) {
+    wx.redirectTo({
+      url: '../index/index',
+    })
+
   }
 })

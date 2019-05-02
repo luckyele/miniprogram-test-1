@@ -23,9 +23,9 @@ Page({
     }],
 
     areas: {
-      "province": "内蒙古自治区",
-      "city": "鄂尔多斯市",
-      "time": 1
+      "name": "合肥市图书馆" ,
+      "city": "合肥市",
+      "type": 1
     }
   },
 
@@ -33,12 +33,6 @@ Page({
     qqmapsdk = new QQMapWX({
       key: 'KLPBZ-BSLKW-GI2RD-OV2T2-O756E-FJBO4'
     });
-  },
-
-  onShow: function () {
-     this.setData({
-       
-     })        
-  }, 
+  } 
 
 })
